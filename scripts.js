@@ -10,15 +10,7 @@ waterApp.calculations = function(){
         const excerisetotal = exceriseInput * 73;
         // for every minute you workout out you have to drink 73 ml of water 
         const totalWaterNeeded = Math.round(weighttotal + excerisetotal);
-        const displayneedHTML = `
-            <div class="display">
-            <h3>The total amount you need to drink is: ${totalWaterNeeded} ml</h3>
-            <button><a href="./index.html">Restart</a></button>
-            </div>
-           `  
-        // to display the calcutions for when user checks no for drinking water    
-        $('.results').html(`${displayneedHTML}`);   
-     
+
 }
 
 
@@ -41,13 +33,13 @@ waterApp.consumed = function() {
     const intake = parseInt($('#waterIntake').val());
     const subtract = waterNeeded - intake;
     const displayconsumedHTML = `
-            <div class="display">
-            <p>The total amount you need to drink is: ${subtract} ml</p>
-            <button><a href="./home-page.html">Restart</a></button>
-            </div>
-            `
- // to display the calcutions for when user checks yes for drinking water    
-     $('.results').html (`${displayconsumedHTML}`);
+        <div class="display">
+        <p>The total amount you need to drink is: ${subtract} ml</p>
+        <button><a href="./index.html">Restart</a></button>
+        </div>`
+ // to display the calcutions for when user checks yes for drinking water
+        
+        $('.results').html (`${displayconsumedHTML}`);
 }
 
 
