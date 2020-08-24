@@ -13,7 +13,7 @@ waterApp.calculations = function(){
         const displayneedHTML = `
             <div class="display">
             <h3>The total amount you need to drink is: ${totalWaterNeeded} ml</h3>
-            <button><a href="./home-page.html">Restart</a></button>
+            <button><a href="./index.html">Restart</a></button>
             </div>
            `  
         // to display the calcutions for when user checks no for drinking water    
@@ -58,7 +58,9 @@ waterApp.eventListeners = function () {
         //Prevent Default if we are submitting a form
          //Adding an event listner for submit 
                 event.preventDefault();
+                $('.results').show();
                 waterApp.showingInput();
+
                       
                 //Get users choices
                 const optionChecked = $('input[name=drinkwater]:checked').val();

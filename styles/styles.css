@@ -494,6 +494,7 @@ button:hover {
   border-radius: 10px;
   padding: 150px;
   background-color: #373f3f;
+  display: none;
 }
 
 @media (max-width: 930px) {
