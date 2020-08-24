@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tracker</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="container">
+                <div class="water-info">
+                    <h1>Drinking Water Tracker</h1>
+                    <p>This site is designed to help you find how much water you need to drink today!</p> 
+                </div>
+                <div class="fill-in-form">
+                    <form class="calculation-form" method="post" action="">
+                        <div class="form-values">
+                            <label for="bodyweight" class="">Body Weight</label>
+                            <input type="text" placeholder="kg"  id="bodyWeight">
+                        </div>
+                        <div class="form-values">
+                            <label for="minutesofexcerise" class="">Minutes of Excerise</label>
+                            <input type="text" placeholder="mins" id="minutesOfExcerise">
+                        </div>
+                        <div class="form-drinkwater">
+                            <label for="drinkingwaterquestion" class="">Did you drink water today?</label>
+                            <div class="options">
+                                <label for="yes-drinkwater">Yes</label>
+                                <input type="checkbox" id="yes" name="drinkwater" value="0">
+                                <label for="no-drinkwater">No</label>
+                                <input type="checkbox" id="no" name="drinkwater" value="1">
+                            </div>
+                            <div class ="water-consumed">
+                                <label for="waterconsumed" class="">Water Consumed</label>
+                                <input type="waterconsumed" placeholder="ml" id="waterIntake">
+                            </div>
+                        </div>
+                        <div class="submit-container">
+                        <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    <section class="results"></section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
+
+<!-- <button><a href="./water-consumption.html">Submit</a></button> -->
