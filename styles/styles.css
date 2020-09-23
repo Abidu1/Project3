@@ -380,7 +380,7 @@ button:hover {
   width: 40%;
   margin-left: 100px;
   background-color: white;
-  padding: 60px;
+  padding: 50px;
   border-radius: 100px;
   -webkit-box-shadow: 10px 10px #373f3f;
           box-shadow: 10px 10px #373f3f;
@@ -481,6 +481,23 @@ button:hover {
   border: solid 2px #373f3f;
 }
 
+.display {
+  text-align: center;
+}
+
+.modal {
+  display: none;
+}
+
+.error {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.display p {
+  font-size: 10rem;
+}
+
 .results {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,6 +512,12 @@ button:hover {
   padding: 150px;
   background-color: #373f3f;
   display: none;
+  height: 100vh;
+}
+
+.water-consumed {
+  display: none;
+  text-align: center;
 }
 
 @media (max-width: 930px) {
@@ -550,6 +573,28 @@ button:hover {
 }
 
 @media (max-width: 560px) {
+  .results {
+    padding-top: 0px;
+    padding: 0px;
+  }
+  .display,
+  .error {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+  }
+  .display p,
+  .error p {
+    font-size: 4rem;
+  }
+  .container {
+    padding-top: 50px;
+  }
+  .water-info {
+    width: 100%;
+    text-align: center;
+  }
   h1 {
     font-size: 4.3rem;
     font-weight: 500;
@@ -571,12 +616,38 @@ button:hover {
     width: 30px;
     font-size: 0.7rem;
   }
-  .results {
-    padding-top: 300px;
+  .submit-container input {
+    width: 100px;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 300;
   }
 }
 
 @media (max-width: 480px) {
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
   input {
     width: 100px;
   }
@@ -596,6 +667,15 @@ button:hover {
 }
 
 @media (max-width: 360px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
   input {
     width: 100px;
   }

@@ -1,4 +1,19 @@
 //Main
+.display{
+    text-align: center;
+}
+
+.modal{
+    display:none;
+}
+.error{
+    text-align: center;
+    margin:0 auto;
+}
+
+.display p{
+    font-size:10rem;
+}
 .results{
     display:flex;
     justify-content: center;
@@ -7,4 +22,10 @@
     padding:150px;
     background-color:$shadowcolor;
     display:none;
+    height:100vh;
+}
+
+.water-consumed{
+    display:none;
+    text-align: center;
 }

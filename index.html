@@ -29,9 +29,9 @@
                             <label for="drinkingwaterquestion" class="">Did you drink water today?</label>
                             <div class="options">
                                 <label for="yes-drinkwater">Yes</label>
-                                <input type="checkbox" id="yes" name="drinkwater" value="0">
+                                <input type="radio" id="yes" name="drinkwater" value="0">
                                 <label for="no-drinkwater">No</label>
-                                <input type="checkbox" id="no" name="drinkwater" value="1">
+                                <input type="radio" id="no" name="drinkwater" value="1">
                             </div>
                             <div class ="water-consumed">
                                 <label for="waterconsumed" class="">Water Consumed</label>
@@ -47,7 +47,9 @@
         </div>
     </header>
     <main>
-    <section class="results"></section>
+    <section class="results">
+        <div class="modal"></div>
+    </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./scripts.js"></script>
