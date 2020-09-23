@@ -24,7 +24,7 @@
         width: 160px;
         }
     
-    .fill-in-form{
+    .fillInForm{
         position:relative;
         right:50px;
 
@@ -86,7 +86,7 @@
     .container{
         padding-top:50px;
     }
-    .water-info{
+    .waterInfo{
         width:100%;
         text-align: center;
     }
@@ -116,7 +116,7 @@
         font-size:0.7rem;
         }
 
-    .submit-container input{
+    .submitContainer input{
         width:100px;
 
     }
@@ -162,8 +162,8 @@
         width: 100px;
     }
 
-     .water-info, 
-     .fill-in-form{
+     .waterInfo, 
+     .fillInForm{
         display: flex;
         flex-direction: column;
         align-items: center;

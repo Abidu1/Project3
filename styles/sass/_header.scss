@@ -6,13 +6,13 @@
     padding-top:100px;
     }
 
-    .water-info{
+    .waterInfo{
         width:40%;
     }
     
-    .water-intake-form,
-    .total-water,
-    .fill-in-form{
+    .waterIntakeForm,
+    .totalWater,
+    .fillInForm{
         width:40%;
         margin-left:100px;
         background-color:white;
@@ -21,19 +21,19 @@
         box-shadow: 10px 10px $shadowcolor;
     }
 
-    .total-water{
+    .totalWater{
         display:flex;
         flex-direction: column;
     }
     
-    .calculation-form{
+    .calculationForm{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding:10px;
     }
     
-    .form-values{
+    .formValues{
         display:flex;
         flex-direction: column;
         color:$shadowcolor;
@@ -41,7 +41,7 @@
         margin:10px;
     }
 
-    .water-consumed{
+    .waterConsumed{
         display:flex;
         flex-direction: column;
         padding-top:10px;
@@ -49,19 +49,19 @@
         // display:none;
     }
 
-    .submit-container{
+    .submitContainer{
         padding-top: 30px;
         
     }
 
-    .submit-container input{
+    .submitContainer input{
         width:150px;
         background-color: $shadowcolor;
         color:white;
         text-transform: uppercase;
     }
 
-    .form-drinkwater{
+    .formDrinkwater{
         display:flex;
         color:$shadowcolor;
         flex-direction: column;

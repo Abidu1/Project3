@@ -43,10 +43,10 @@ waterApp.calculations = function(){
 waterApp.conditions = function(){
         const checked = $('input[type="radio"]').click(function(){
                 if($('#yes').prop("checked") === true){
-                        $('.water-consumed').show();
+                        $('.waterConsumed').show();
                 }
                 else if($('#yes').prop("checked") === false){
-                        $('.water-consumed').hide();
+                        $('.waterConsumed').hide();
                 }
         })
         

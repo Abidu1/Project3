@@ -370,13 +370,13 @@ button:hover {
   padding-top: 100px;
 }
 
-.water-info {
+.waterInfo {
   width: 40%;
 }
 
-.water-intake-form,
-.total-water,
-.fill-in-form {
+.waterIntakeForm,
+.totalWater,
+.fillInForm {
   width: 40%;
   margin-left: 100px;
   background-color: white;
@@ -386,7 +386,7 @@ button:hover {
           box-shadow: 10px 10px #373f3f;
 }
 
-.total-water {
+.totalWater {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,7 +396,7 @@ button:hover {
           flex-direction: column;
 }
 
-.calculation-form {
+.calculationForm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +410,7 @@ button:hover {
   padding: 10px;
 }
 
-.form-values {
+.formValues {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,7 +425,7 @@ button:hover {
   margin: 10px;
 }
 
-.water-consumed {
+.waterConsumed {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,18 +439,18 @@ button:hover {
           align-items: center;
 }
 
-.submit-container {
+.submitContainer {
   padding-top: 30px;
 }
 
-.submit-container input {
+.submitContainer input {
   width: 150px;
   background-color: #373f3f;
   color: white;
   text-transform: uppercase;
 }
 
-.form-drinkwater {
+.formDrinkwater {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -515,7 +515,7 @@ button:hover {
   height: 100vh;
 }
 
-.water-consumed {
+.waterConsumed {
   display: none;
   text-align: center;
 }
@@ -541,7 +541,7 @@ button:hover {
   input {
     width: 160px;
   }
-  .fill-in-form {
+  .fillInForm {
     position: relative;
     right: 50px;
   }
@@ -591,7 +591,7 @@ button:hover {
   .container {
     padding-top: 50px;
   }
-  .water-info {
+  .waterInfo {
     width: 100%;
     text-align: center;
   }
@@ -616,7 +616,7 @@ button:hover {
     width: 30px;
     font-size: 0.7rem;
   }
-  .submit-container input {
+  .submitContainer input {
     width: 100px;
   }
 }
@@ -651,8 +651,8 @@ button:hover {
   input {
     width: 100px;
   }
-  .water-info,
-  .fill-in-form {
+  .waterInfo,
+  .fillInForm {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
