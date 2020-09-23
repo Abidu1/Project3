@@ -1,8 +1,4 @@
 const waterApp = {};
-
-
-
-
 waterApp.calculations = function(){
 
         // total calculation for when user inputs values
@@ -55,7 +51,7 @@ waterApp.conditions = function(){
 
 
 waterApp.eventListeners = function () {
-          
+
         waterApp.conditions();
                 //Prevent Default if we are submitting a form
          //Adding an event listner for submit 
@@ -65,20 +61,20 @@ waterApp.eventListeners = function () {
                         alert('please fill in blank')
                 } else if(!$('#minutesOfExcerise').val()){
                         alert('please fill in blank')
-                 } else if($('#waterIntake').val()) {
+                } else if($('#waterIntake').val()) {
                         event.preventDefault();
                         waterApp.calculations();
                         $('.results').show();
                         $('header').hide();
-                 } 
-                 else{
+                } 
+                else{
                         event.preventDefault();
                         waterApp.calculations();
                         $('.results').show();
                         $('header').hide(); 
-                 }
+                }
 
-                 
+
 
 
 
