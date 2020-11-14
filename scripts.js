@@ -57,27 +57,10 @@ waterApp.eventListeners = function () {
          //Adding an event listner for submit 
 
         $('form').on('submit', function(event){
-                if(!$('#bodyWeight').val()){
-                        alert('please fill in blank')
-                } else if(!$('#minutesOfExcerise').val()){
-                        alert('please fill in blank')
-                } else if($('#waterIntake').val()) {
-                        event.preventDefault();
-                        waterApp.calculations();
-                        $('.results').show();
-                        $('header').hide();
-                } 
-                else{
                         event.preventDefault();
                         waterApp.calculations();
                         $('.results').show();
                         $('header').hide(); 
-                }
-
-
-
-
-
                 
 })
 
