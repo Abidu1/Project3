@@ -59,7 +59,7 @@ waterApp.eventListeners = function () {
         $('form').on('submit', function(event){
                         event.preventDefault();
                         waterApp.calculations();
-                        $('.results').show();
+                        $('.results').addClass("active");
                         $('header').hide(); 
                 
 })

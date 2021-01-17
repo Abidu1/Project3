@@ -15,10 +15,16 @@
     .fillInForm{
         width:40%;
         margin-left:100px;
-        background-color:white;
+        // background-color:white;
+        background: linear-gradient(
+            to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.3)
+          );
         padding:50px;
         border-radius: 100px;
-        box-shadow: 10px 10px $shadowcolor;
+        // box-shadow: 10px 10px $shadowcolor;
+        // box-shadow: 10px 10px white;
     }
 
     .totalWater{
@@ -51,14 +57,18 @@
 
     .submitContainer{
         padding-top: 30px;
-        
+        transition: all 0.3s ease;
     }
 
     .submitContainer input{
         width:150px;
         background-color: $shadowcolor;
         color:white;
-        text-transform: uppercase;
+        text-transform: uppercase;   
+    }
+
+    .submitContainer:hover{
+        transform: scale(1.1);
     }
 
     .formDrinkwater{
@@ -66,6 +76,7 @@
         color:$shadowcolor;
         flex-direction: column;
     }
+    
 
     .options{
         display: flex;
@@ -80,10 +91,35 @@
 
     }
 
+    input[type="radio"] {
+        /* remove standard background appearance */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* create custom radiobutton appearance */
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        padding: 6px;
+        /* background-color only for content */
+        background-clip: content-box;
+        border: 2px solid #bbbbbb;
+        background-color: #e7e6e7;
+        border-radius: 50%;
+      }
+      
+      /* appearance for checked radiobutton */
+      input[type="radio"]:checked {
+        background-color: #93e026;
+      }
+      
+
+
    .options input:hover{
         border: solid 2px $shadowcolor;
     }
     
+
 
 
 

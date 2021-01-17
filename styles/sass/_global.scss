@@ -51,6 +51,7 @@
         p{
          font-size:4rem;
          font-weight: 300;
+
         }
 
        .wrapper {
@@ -61,12 +62,14 @@
 
         header{
         height:100vh;
-        background:linear-gradient(45deg, #4CE1E0, #0C9493 );
+        // background:linear-gradient(45deg, #4CE1E0, #0C9493 );
+        background: linear-gradient(to right top, #65dfc9, #6cdbeb);
         background-position: center;
         }
 
         main{
-            background:linear-gradient(45deg, #4CE1E0, #0C9493 );
+            // background:linear-gradient(45deg, #4CE1E0, #0C9493 );
+            background: linear-gradient(to right top, #65dfc9, #6cdbeb);
             background-position: center;
         }
 
@@ -80,6 +83,7 @@
         
         label{
             color:$shadowcolor;
+            opacity: 0.8;
         }
         
         input{
@@ -90,11 +94,12 @@
             border:none;
             text-align: center;
             font-weight:100;
-            background:#a7e5e5;
+            // background:#a7e5e5;
+            background: linear-gradient(to right top, #65dfc9, #76eeff);
             // #638c8c
         }
         
-        input:hover{
+        .formValues input:hover{
             border: solid 2px $shadowcolor;
         }
         
@@ -103,7 +108,7 @@
             padding: 10px 20px;
             background-color:#a7e5e5;
             text-transform: uppercase;
-            font-family: 'Roboto', sans-serif;
+            // font-family: 'Roboto', sans-serif;
             margin-top:10px;
         }
         
